@@ -1,364 +1,763 @@
-<!DOCTYPE HTML>
-
-<html lang='en'>
-	<head>
+<!doctype html><html lang="en">
+  <head>
 	<meta name="generator" content="Hugo 0.45" />
-		<title>UXG</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href='/assets/css/main.css' />
-		
-		<noscript><link rel="stylesheet" href='/assets/css/noscript.css' /></noscript>
-	</head>
-
-	<body lang='en' class="is-loading">
-
-		
-		
-		
-
-		
-		
-
-		
-			
-		
-		
-
-		
-
-		
-			<div id="wrapper" class="fade-in" data-pfn="post" data-ps="6" data-pfp="true">
-
-				
-				
-
-<div id="intro">
-    <h1>
-        
-             This is
-        
-             <br/>  Massively
-        
-    </h1>
-    <p>
-        
-             A free, fully responsive HTML5 &#43; CSS3 site template designed by @ajlkn for HTML5 UP
-        
-             <br/>  and released for free under the Creative Commons license.
-        
-    </p>
-    <ul class="actions">
-        <li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-    </ul>
-</div>
-
-
-				
-
-				
-<header id="header">
-    <a href='/' class="logo">UXG</a>
-</header>
-
-				
-
-<nav id="nav">
-    <ul class="links">
-        <li class="active"><a href='/'>UXG</a></li>
-        
-        <li><a href='/#footer'>Contact</a></li>
-        
-        
-    </ul>
+    <meta charset="utf-8">
+    <title>reveal-hugo</title>
+    <meta name="description" content="A Hugo theme for creating Reveal.js presentations">
+    <meta name="author" content="Josh Dzielak">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.min.css">
+    <link rel="stylesheet" href="/reveal-hugo/themes/robot-lung.css" id="theme">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/color-brewer.min.css">
     
-    <ul class="icons">
-        
-        <li><a href="https://twitter.com/" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-        
-        
-        <li><a href="https://facebook.com" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-        
-        
-        <li><a href="https://instagram.com" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-        
-        
-        <li><a href="https://www.linkedin.com" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-        
-        
-        <li><a href="https://github.com/" class="icon fa-github"><span class="label">GitHub</span></a></li>
-        
-        
-        <li><a href="https://youtube.com/" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
-        
-        
-        <li><a href="https://plus.google.com/" class="icon fa-google-plus"><span class="label">Google Plus</span></a></li>
-        
-        
-        <li><a href="https://last.fm/" class="icon fa-lastfm"><span class="label">Last.fm</span></a></li>
-        
-        
-        <li><a href="https://flickr.com/" class="icon fa-flickr"><span class="label">Flickr</span></a></li>
-        
-    </ul>
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.6.0/css/print/pdf.css' : 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.6.0/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+    </head>
+  <body>
+  <div class="reveal">
+  
+  <div class="slides">
     
-</nav>
+    
+<section>
+
+<h1 id="toc_0">📽️</h1>
+
+<h1 id="reveal-hugo">reveal-hugo</h1>
+
+<p>A Hugo theme for creating Reveal.js presentations.</p>
+
+<p>~ made by <a href="https://dzello.com/">@dzello</a> ~</p>
+
+</section>
+<section>
+
+<h2 id="what-s-included">What&rsquo;s included?</h2>
+
+<ul>
+<li>All Reveal.js HTML, CSS and JS (v3.6.0)</li>
+<li>All out-of-the-box Reveal.js themes</li>
+<li>Two custom Reveal.js themes (including this one)</li>
+</ul>
 
 
-				
-					<div id="main">
+</section>
+<section>
 
-						
-						
+<h2 id="features">Features</h2>
 
+<ul>
+<li>Write slides in Markdown in one or more files</li>
+<li>Shorcodes for fragments, sections, slides &amp; more</li>
+<li>All Reveal.js parameters can be customized</li>
+<li>Any Hugo section can be output as a presentation</li>
+</ul>
 
-<article class="post featured">
-    <header class="major">
-        
-        <span class="date">February 20, 2018</span>
-        
-        <h2><a href="http://example.org/post/comments-example/">Comments example</a></h2>
-        <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-    </header>
-    
-    <a href="http://example.org/post/comments-example/" class="image main"><img src="/images/pic04.jpg" alt="" /></a>
-    
-    <ul class="actions">
-        <li><a href="http://example.org/post/comments-example/" class="button big">Full Story</a></li>
-    </ul>
-</article>
+</section>
+<section>
+
+<h1 id="usage">Usage</h1>
 
 
-						
-						
+</section>
+<section>
 
-<section class="posts">
-    
-    <article>
-        <header>
-            
-            <span class="date">April 22, 2017</span>
-            
-            <h2><a href="http://example.org/post/post1/">Primis eget imperdiet lorem</a></h2>
-        </header>
-        
-        <a href="http://example.org/post/post1/" class="image fit"><img src="/images/pic03.jpg" alt="" /></a>
-        
-        <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-        <ul class="actions">
-            <li><a href="http://example.org/post/post1/" class="button">Full Story</a></li>
-        </ul>
-    </article>
-    
-    <article>
-        <header>
-            
-            <span class="date">April 18, 2017</span>
-            
-            <h2><a href="http://example.org/post/post2/">Ante mattis interdum dolor</a></h2>
-        </header>
-        
-        <a href="http://example.org/post/post2/" class="image fit"><img src="/images/pic04.jpg" alt="" /></a>
-        
-        <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-        <ul class="actions">
-            <li><a href="http://example.org/post/post2/" class="button">Full Story</a></li>
-        </ul>
-    </article>
-    
-    <article>
-        <header>
-            
-            <span class="date">April 14, 2017</span>
-            
-            <h2><a href="http://example.org/post/post5/">Tempus sed nulla imperdiet</a></h2>
-        </header>
-        
-        <a href="http://example.org/post/post5/" class="image fit"><img src="/images/pic05.jpg" alt="" /></a>
-        
-        <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-        <ul class="actions">
-            <li><a href="http://example.org/post/post5/" class="button">Full Story</a></li>
-        </ul>
-    </article>
-    
-    <article>
-        <header>
-            
-            <span class="date">April 11, 2017</span>
-            
-            <h2><a href="http://example.org/post/post4/">Odio magna sed consectetur</a></h2>
-        </header>
-        
-        <a href="http://example.org/post/post4/" class="image fit"><img src="/images/pic06.jpg" alt="" /></a>
-        
-        <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-        <ul class="actions">
-            <li><a href="http://example.org/post/post4/" class="button">Full Story</a></li>
-        </ul>
-    </article>
-    
-    <article>
-        <header>
-            
-            <span class="date">April 7, 2017</span>
-            
-            <h2><a href="http://example.org/post/post3/">Augue lorem primis vestibulum</a></h2>
-        </header>
-        
-        <a href="http://example.org/post/post3/" class="image fit"><img src="/images/pic07.jpg" alt="" /></a>
-        
-        <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-        <ul class="actions">
-            <li><a href="http://example.org/post/post3/" class="button">Full Story</a></li>
-        </ul>
-    </article>
-    
-    <article>
-        <header>
-            
-            <span class="date">March 22, 2017</span>
-            
-            <h2><a href="http://example.org/post/post6/">Primis eget imperdiet lorem</a></h2>
-        </header>
-        
-        <a href="http://example.org/post/post6/" class="image fit"><img src="/images/pic03.jpg" alt="" /></a>
-        
-        <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-        <ul class="actions">
-            <li><a href="http://example.org/post/post6/" class="button">Full Story</a></li>
-        </ul>
-    </article>
-    
+<h2 id="prerequisite">Prerequisite</h2>
+
+<p>First, add this to your <code>config.toml</code>:</p>
+
+<pre><code class="language-toml">[outputFormats.Reveal]
+baseName = &quot;index&quot;
+mediaType = &quot;text/html&quot;
+isHTML = true
+</code></pre>
+
+
+</section>
+<section>
+
+<h3 id="presentation-at-site-root">Presentation at site root</h3>
+
+<p>Create <code>content/_index.md</code>:</p>
+
+<pre><code class="language-markdown">+++
+outputs = [&quot;Reveal&quot;]
++++
+
+# Slide 1
+
+Hello world!
+</code></pre>
+
+
+</section>
+<section>
+
+<h3 id="add-slides-in-same-file">Add slides in same file</h3>
+
+<p>Separate them by <code>---</code>:</p>
+
+<pre><code>
+# Slide 1
+
+Hello world!
+
+---
+
+# Slide 2
+
+Hello program!
+
+</code></pre>
+
+
+</section>
+<section>
+
+<h3 id="add-slides-with-other-files">Add slides with other files</h3>
+
+<p>Add slides to <code>content/home/*.md</code></p>
+
+<pre><code class="language-markdown">+++
+weight = 10
++++
+
+# Slide 3
+
+---
+
+# Slide 4
+</code></pre>
+
+<p><small>💡 Tip: Use <code>weight</code> to specify the order that files should be added.</small></p>
+
+
+</section>
+<section>
+
+<h3 id="presentation-at-section">Presentation at &lsquo;/{section}/&rsquo;</h3>
+
+<p>In <code>content/{section}/_index.md</code>:</p>
+
+<pre><code class="language-markdown">+++
+outputs = [&quot;Reveal&quot;]
++++
+
+# Slide 1
+
+---
+
+# Slide 2
+
+</code></pre>
+
+
+</section>
+<section>
+
+<p>Add slides from other files in <code>content/{section}/*.md</code></p>
+
+<pre><code class="language-markdown">+++
+weight = 10
++++
+
+# Slide 3
+
+---
+
+# Slide 4
+</code></pre>
+
+<p><small>💡 Tip: Use <code>weight</code> to specify the order that files should be added.</small></p>
+
+
+</section>
+<section>
+
+<h1 id="configuration">Configuration</h1>
+
+
+</section>
+<section>
+
+<h2 id="reveal-js-themes">Reveal.js themes</h2>
+
+<p>Put in <code>config.toml</code> or a presentation&rsquo;s front matter.</p>
+
+<p>Use the <code>theme</code> key for themes that come with Reveal.js.</p>
+
+<pre><code class="language-toml">[params.reveal_hugo]
+theme = &quot;moon&quot;
+highlight_theme = &quot;zenburn&quot;
+</code></pre>
+
+<p><a href="https://github.com/hakimel/reveal.js/#theming">Reveal.js themes</a> &middot;
+<a href="https://highlightjs.org/static/demo/">highlight.js themes</a></p>
+
+
+</section>
+<section>
+
+<h2 id="use-a-custom-theme">Use a custom theme</h2>
+
+<p>Use the <code>custom_theme</code> key to point to a CSS file in the <code>static</code> directory.</p>
+
+<pre><code class="language-toml">[params.reveal_hugo]
+custom_theme = &quot;reveal-hugo/themes/robot-lung.css&quot;
+</code></pre>
+
+
+</section>
+<section>
+
+<h2 id="like-this-theme">Like this theme?</h2>
+
+<p>reveal-hugo comes with 2 extra Reveal.js themes:</p>
+
+<ul>
+<li><a href="https://github.com/dzello/revealjs-themes#robot-lung">robot-lung</a> (this one)</li>
+<li><a href="https://github.com/dzello/revealjs-themes#sunblind">sunblind</a></li>
+</ul>
+
+<p><br>
+<small>
+They live in the <code>static/reveal-hugo/themes</code> folder and also <a href="https://github.com/dzello/revealjs-themes">on Github</a>.
+</small></p>
+
+
+</section>
+<section>
+
+<h2 id="reveal-js-params">Reveal.js params</h2>
+
+<p>Set <strong>snakecase</strong> versions of Reveal.js params, which will be camelized and passed to <code>Reveal.initialize</code>.</p>
+
+<pre><code class="language-toml">[params.reveal_hugo]
+history = true
+slide_number = true
+transition = 'zoom'
+transition_speed = 'fast'
+</code></pre>
+
+<p><a href="https://github.com/hakimel/reveal.js/#configuration">Full list of params</a></p>
+
+</section>
+<section>
+
+<h1 id="shortcodes">Shortcodes</h1>
+
+
+</section>
+<section>
+
+<p>Hugo&rsquo;s shortcodes are similar to functions or templates that extend what you can do with Markdown.</p>
+
+<p><a href="https://gohugo.io/content-management/shortcodes/">Shortcode documentation</a></p>
+
+</section>
+<section>
+
+<h2 id="fragment">Fragment</h2>
+
+<p>The <code>fragment</code> shortcode makes content appear incrementally.</p>
+
+<pre><code>{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} Two {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+</code></pre>
+
+<p><span class='fragment '
+  >
+  One
+</span>
+<span class='fragment '
+  >
+  Two
+</span>
+<span class='fragment '
+  >
+  Three
+</span></p>
+
+
+</section>
+<section>
+
+<h2 id="frag">Frag</h2>
+
+<p>The <code>frag</code> shortcode is more terse than <code>fragment</code>. It accepts a <code>c</code> attribute.</p>
+
+<pre><code>{{&lt; frag c=&quot;One&quot; &gt;}}
+{{&lt; frag c=&quot;Two&quot; &gt;}}
+{{&lt; frag c=&quot;Three&quot; &gt;}}
+</code></pre>
+
+<p><span class='fragment '
+  >
+  One
+</span>
+<span class='fragment '
+  >
+  Two
+</span>
+<span class='fragment '
+  >
+  Three
+</span></p>
+
+
+</section>
+<section>
+
+<p>Both <code>fragment</code> and <code>frag</code> accept two additional parameters:</p>
+
+<ul>
+<li><code>class</code>: sets the class of the wrapping <code>span</code> element</li>
+<li><code>index</code>: controls the order in which sections will appear</li>
+</ul>
+
+</section>
+<section><section data-shortcode-section>
+<h2 id="section">Section</h2>
+
+<p>The <code>section</code> shortcode groups slides into a <strong>vertical display</strong>.</p>
+
+<p><br>
+<small>
+use the down arrow or swipe down to continue
+</small>
+<br>
+<a href="#" class="navigate-down">🔽</a></p>
+
+
+</section>
+<section>
+
+<p>Put the shortcode around the slides you want to group together.</p>
+
+<pre><code class="language-markdown">{{% section %}}
+
+## Section slide 1
+
+---
+
+## Section slide 2
+
+{{% /section %}}
+</code></pre>
+
+<p>Keep going down.</p>
+
+
+</section>
+<section>
+
+<h2 id="that-s-it">That&rsquo;s it!</h2>
+
+<p>Use the right arrow or swipe right to continue.</p>
+
+</section>
+
+</section>
+<section>
+
+<h2 id="slide">Slide</h2>
+
+<p>Customize individual slide attributes like id, class, background color and transition. Use the same keys as Reveal.js but omit the &lsquo;data-&rsquo; prefix.</p>
+
+
 </section>
 
 
-						
-						
-						<footer>
-							<div class="pagination">
-								
-								
-								
-								<a href="/" class="page active">1</a>
-								
-								
-								
-								<a href="/page/2/" class="page">2</a>
-								
-								
-								
-								<a href="/page/2/" class="next"></a>
-								
-							</div>
-						</footer>
-						
+<section data-noprocess data-shortcode-slide
+      id="custom-1"
+      data-transition="zoom"
+      data-transition-speed="fast">
+  <h2 id="custom-slide-1">Custom slide 1</h2>
 
-					</div>
+<pre><code>{{% slide id=&quot;custom-1&quot; transition=&quot;zoom&quot; transition-speed=&quot;fast&quot; %}}
 
-					
+## Custom slide 1
 
-<footer id="footer">
+{{% /slide %}}
+</code></pre>
+
+</section>
+
+
+
+
+<section data-noprocess data-shortcode-slide
+      data-background="#FF4081"
+      id="custom-2">
+  <h2 id="custom-slide-2">Custom slide 2</h2>
+
+<pre><code>{{% slide id=&quot;custom-2&quot; background=&quot;#FF4081&quot; %}}
+
+## Custom slide 2
+
+{{% /slide %}}
+</code></pre>
+
+</section>
+
+
+<section>
+
+<p>💡 Tip: Setting a slide&rsquo;s <code>id</code> attribute makes it easy to link to from other parts of the presentation.</p>
+
+<p><br></p>
+
+<pre><code class="language-markdown">Go to [custom slide 1](#custom-1)
+</code></pre>
+
+<p><small>
+Go to <a href="#custom-1">custom slide 1</a>
+</small></p>
+
+
+</section>
+<section>
+
+<p>Slide attribute possibilities from the <a href="https://github.com/hakimel/reveal.js">Reveal.js docs</a>:</p>
+
+<ul>
+<li><code>autoslide</code></li>
+<li><code>state</code></li>
+<li><code>background</code></li>
+<li><code>background-color</code></li>
+<li><code>background-image</code></li>
+<li><code>background-size</code></li>
+<li><code>background-position</code></li>
+<li><code>background-repeat</code></li>
+</ul>
+
+
+</section>
+<section>
+
+<ul>
+<li><code>background-video</code></li>
+<li><code>background-video-loop</code></li>
+<li><code>background-video-muted</code></li>
+<li><code>background-interactive</code></li>
+<li><code>background-iframe</code></li>
+<li><code>background-transition</code></li>
+<li><code>transition</code> (can have different in and out transitions)</li>
+<li><code>transition-speed</code></li>
+<li><code>notes</code> (can also use the note shortcode)</li>
+<li><code>timing</code></li>
+</ul>
+
+
+</section>
+<section>
+
+<section data-shortcode-section>
+<h2 id="slide-templates">Slide templates</h2>
+
+<p>Store sets of common slide attributes in front matter variables and apply them to slides with the template attribute.</p>
+
+<p><br>
+<small>
+navigate down to learn more
+</small>
+<br>
+<a href="#" class="navigate-down">🔽</a></p>
+
+
+</section>
+<section>
+
+<p>Create templates in config.toml, _index.md or the current page&rsquo;s front matter. Put them under the <strong>templates</strong> key with a meaningful name:</p>
+
+<pre><code class="language-toml">[reveal_hugo.templates.hotpink]
+class = &quot;hotpink&quot;
+background = &quot;#FF4081&quot;
+</code></pre>
+
+
+</section>
+
+<section data-noprocess data-shortcode-slideZgotmplZZgotmplZZgotmplZ
+      data-background="#FF4081"
+      class="hotpink"
+    data-template="hotpink">
+  <p>Apply the template using the <strong>template</strong> attribute of the slide shortcode:</p>
+
+<pre><code class="language-markdown">{{% slide template=&quot;hotpink&quot; %}}
+
+# I'm a hot pink slide!
+
+{{% /slide %}}
+</code></pre>
+
+</section>
+
+
+<section>
+
+<p>If a template exists in multiple configurations, it&rsquo;s properties will be merged. If a property is declared multiple times, the order of precedence is:</p>
+
+<ul>
+<li>page</li>
+<li>section (_index.md)</li>
+<li>site (config.toml)</li>
+</ul>
+
+</section>
+
+
+</section>
+
+<section data-shortcode-section>
+<section data-noprocess data-shortcode-slide>
+  <h1 id="reusable-slides">Reusable slides</h1>
+
+<p>Store markdown in a <a href="https://gohugo.io/templates/data-templates/">data template</a> and reuse it in multiple sections or presentations.</p>
+
+<p><br>
+<small>
+navigate down to learn more
+</small>
+<br>
+<a href="#" class="navigate-down">🔽</a></p>
+
+
+</section>
+<section data-noprocess data-shortcode-slide>
+  
+
+<p>Add an <code>example</code> key to data/home.toml:</p>
+
+<pre><code>example = &quot;I'm a slide&quot;
+</code></pre>
+
+<p><br></p>
+
+<p>Set the <code>content</code> attribute to &ldquo;home.example&rdquo;:</p>
+
+<pre><code>{{% slide content=&quot;home.example&quot; /%}}
+</code></pre>
+
+<p><br>
+<small>
+💡 Make sure to use a closing or self-closing shortcode.
+</small></p>
+
+
+</section>
+<section data-noprocess data-shortcode-slide>
+  
+
+<p>💡 Each data template entry can contain one or more slides, separated by <code>---</code> with newlines.</p>
+
+
+</section>
+<section data-noprocess data-shortcode-slide>
+  
+
+<p>💡 All other slide shortcode attributes (background, transition, etc.) can be used and will be applied to each slide in the data template entry.</p>
+
+</section>
+
+</section>
+<section data-noprocess data-markdown
+  data-separator="^\r?\n---\r?\n$"
+  data-separator-vertical="^\r?\n------\r?\n$"
+  data-separator-notes="notes?:">
+  <script type="text/template">
     
-    <section>
-        <form method="post" action="post-action">
-            <div class="field">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" />
-            </div>
-            <div class="field">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email" />
-            </div>
-            <div class="field">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="3"></textarea>
-            </div>
-            <ul class="actions">
-                <li><input type="submit" value='Send A Message' /></li>
-            </ul>
-        </form>
-    </section>
-    
-    <section class="split contact">
-        
-        <section class="alt">
-            <h3>Address</h3>
-            <p>
-                
-                     1234 Somewhere Road #87257
-                
-                     <br/>  Nashville, TN 00000-0000
-                
-            </p>
-        </section>
-        
-        
-        <section>
-            <h3>Phone</h3>
-            <p><a href="tel:%28800%29%20000-0000">(800) 000-0000</a></p>
-        </section>
-        
-        
-        <section>
-            <h3>Email</h3>
-            <p><a href="mailto:someone@untitled.tld">someone@untitled.tld</a></p>
-        </section>
-        
-        
-        <section>
-            <h3>Social</h3>
-            <ul class="icons alt">
-                
-                <li><a href="https://twitter.com/" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-                
-                
-                <li><a href="https://facebook.com" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-                
-                
-                <li><a href="https://instagram.com" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-                
-                
-                <li><a href="https://www.linkedin.com" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                
-                
-                <li><a href="https://github.com/" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-                
-                
-                <li><a href="https://youtube.com/" class="icon alt fa-youtube"><span class="label">Youtube</span></a></li>
-                
-                
-                <li><a href="https://plus.google.com/" class="icon alt fa-google-plus"><span class="label">Google Plus</span></a></li>
-                
-                
-                <li><a href="https://last.fm/" class="icon alt fa-lastfm"><span class="label">Last.fm</span></a></li>
-                
-                
-                <li><a href="https://flickr.com/" class="icon alt fa-flickr"><span class="label">Flickr</span></a></li>
-                
-            </ul>
-        </section>
-        
-    </section>
-</footer>
 
-					
-<div id="copyright">
-    <ul><li>&copy; UXG</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li><li>Hugo Port: <a href="https://curtistimson.co.uk">curttimson</a></li></ul>
+## Markdown
+
+Reveal.js has its own [markdown processor](https://github.com/hakimel/reveal.js#markdown). To use that instead of Hugo, surround a slide with the markdown shortcode.
+
+```
+{{< markdown >}}
+
+# Hello world!
+
+{{< /markdown >}}
+```
+
+<br>
+<small>
+💡 Make sure to use the `{{< >}}` shortcode syntax to avoid rendering by Hugo.
+</small>
+
+---
+
+<!-- .slide: data-background="#FF4081" -->
+
+Reveal.js markdown uses HTML comments to change slide properties, like background color.
+
+```
+{{< markdown >}}
+<!-- .slide: data-background="#FF4081" -->
+# I'm a colorful slide
+{{< /markdown >}}
+```
+
+
+  </script>
+</section>
+
+<section>
+
+<h2 id="note">Note</h2>
+
+<p>Add speaker notes to your presentation with the note shortcode.</p>
+
+<pre><code class="language-markdown">{{% note %}}
+
+Type 's' to see this slide's speaker notes.
+
+{{% /note %}}
+</code></pre>
+
+<aside class="notes"><p>You found the speaker notes!</p>
+</aside>
+
+
+</section>
+
+<section data-noprocess>
+  <h2>Write slides in HTML</h2>
+  <p>Use a <code>section</code> tag with a <code>data-noprocess</code> attribute to avoid any processing by reveal-hugo.</p>
+  <pre>
+&lt;section data-noprocess&gt;
+  &lt;h1&gt;Hello world!&lt;/h1&gt;
+&lt;section&gt;</pre>
+  <small>💡 This is useful if you can't get Markdown to output exactly what you want.</small>
+</section>
+
+<section>
+
+<h1 id="resources">Resources</h1>
+
+
+</section>
+<section>
+
+<h2 id="code-and-docs">Code and docs</h2>
+
+<ul>
+<li><a href="https://github.com/dzello/reveal-hugo">reveal-hugo Github README</a></li>
+<li><a href="https://github.com/dzello/reveal-hugo/tree/master/exampleSite">Content for this presentation</a></li>
+</ul>
+
+
+</section>
+<section>
+
+<h2 id="external-resources">External resources</h2>
+
+<ul>
+<li><a href="https://revealjs.com/">Reveal.js</a></li>
+<li><a href="https://gohugo.io/">Hugo docs</a></li>
+<li><a href="https://gohugo.io/templates/output-formats/">Hugo output format docs</a></li>
+</ul>
+
+
+</section>
+<section>
+
+<h2 id="designed-to">Designed to&hellip;</h2>
+
+<ul>
+<li>Deploy to <a href="https://netlify.com/">Netlify</a></li>
+<li>Edit with <a href="https://forestry.io/">Forestry</a></li>
+</ul>
+
+
+</section>
+<section>
+
+<h1 id="toc_4">🙏</h1>
+
+<p>Contribute by opening issues and pull requests.</p>
+
+
+</section>
+<section>
+
+<h1 id="thanks">Thanks!</h1>
+
+
+</section>
+<section>
+
+<h1 id="toc_6">↩️</h1>
+
+<h4 id="start-over"><a href="#">Start over</a></h4>
+
+</section>
+  </div>
 </div>
+<script type="application/json" id="reveal-hugo-page-params">{"custom_theme":"reveal-hugo/themes/robot-lung.css","highlight_theme":"color-brewer","margin":0.2,"templates":{"hotpink":{"background":"#FF4081","class":"hotpink"}},"transition":"slide","transition_speed":"fast"}</script>
+    <script type="application/json" id="reveal-hugo-site-params">{"history":true}</script>
+    <script type="application/json" id="reveal-hugo-defaults">{"center":true,"controls":true,"highlight_theme":"default","history":true,"progress":true,"theme":"black","transition":"slide"}</script>
+    <script type="text/javascript">
+      window.revealHugoDependencies = {
+        dependencies: [
+          { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.6.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.6.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.6.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.6.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.6.0/plugin/zoom-js/zoom.js', async: true },
+          
+          { src: '\/reveal-hugo\/plugin\/notes\/notes.js', async: true }
+      ]};
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/head.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.js"></script>
+    <script type="text/javascript">
+      
+      
+      function camelize(map) {
+        if (map) {
+          Object.keys(map).forEach(function(k) {
+            newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+            if (newK != k) {
+              map[newK] = map[k];
+              delete map[k];
+            }
+          });
+        }
+        return map;
+      }
+      
+      var revealHugoPageParams = JSON.parse(document.getElementById('reveal-hugo-page-params').innerHTML);
+      var revealHugoSiteParams = JSON.parse(document.getElementById('reveal-hugo-site-params').innerHTML);
+      var revealHugoDefaults = JSON.parse(document.getElementById('reveal-hugo-defaults').innerHTML);
+      
+      var options = Object.assign({},
+        camelize(revealHugoDefaults),
+        camelize(revealHugoSiteParams),
+        camelize(revealHugoPageParams),
+        revealHugoDependencies);
+      Reveal.initialize(options);
+    </script>
 
-			</div>
+    <div class="line top"></div>
+<div class="line bottom"></div>
+<div class="line left"></div>
+<div class="line right"></div>
 
-			
-			
-<script src='/assets/js/jquery.min.js'></script>
-<script src='/assets/js/jquery.scrollex.min.js'></script>
-<script src='/assets/js/jquery.scrolly.min.js'></script>
-<script src='/assets/js/skel.min.js'></script>
-<script src='/assets/js/util.js'></script>
-<script src='/assets/js/main.js'></script>
-
-
-
-	</body>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-24132749-1"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', "UA-24132749-1");
+</script>
+  </body>
 </html>
